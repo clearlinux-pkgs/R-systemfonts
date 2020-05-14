@@ -1,4 +1,0 @@
-0.2.1
-fontconfig-dev
-pkgconfig(fontconfig)
-pkgconfig(freetype2)

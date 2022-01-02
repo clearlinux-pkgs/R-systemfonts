@@ -4,7 +4,7 @@
 #
 Name     : R-systemfonts
 Version  : 1.0.3
-Release  : 24
+Release  : 25
 URL      : https://cran.r-project.org/src/contrib/systemfonts_1.0.3.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/systemfonts_1.0.3.tar.gz
 Summary  : System Native Font Finding
@@ -43,10 +43,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1634136468
+export SOURCE_DATE_EPOCH=1641134921
 
 %install
-export SOURCE_DATE_EPOCH=1634136468
+export SOURCE_DATE_EPOCH=1641134921
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
@@ -125,3 +125,5 @@ R CMD check --no-manual --no-examples --no-codoc systemfonts || :
 %files lib
 %defattr(-,root,root,-)
 /usr/lib64/R/library/systemfonts/libs/systemfonts.so
+/usr/lib64/R/library/systemfonts/libs/systemfonts.so.avx2
+/usr/lib64/R/library/systemfonts/libs/systemfonts.so.avx512

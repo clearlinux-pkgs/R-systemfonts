@@ -7,7 +7,7 @@
 #
 Name     : R-systemfonts
 Version  : 1.0.6
-Release  : 37
+Release  : 38
 URL      : https://cran.r-project.org/src/contrib/systemfonts_1.0.6.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/systemfonts_1.0.6.tar.gz
 Summary  : System Native Font Finding

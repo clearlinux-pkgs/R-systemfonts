@@ -6,10 +6,10 @@
 # autospec commit: f4a13a5
 #
 Name     : R-systemfonts
-Version  : 1.2.0
-Release  : 41
-URL      : https://ftp.osuosl.org/pub/cran/src/contrib/systemfonts_1.2.0.tar.gz
-Source0  : https://ftp.osuosl.org/pub/cran/src/contrib/systemfonts_1.2.0.tar.gz
+Version  : 1.2.1
+Release  : 42
+URL      : https://ftp.osuosl.org/pub/cran/src/contrib/systemfonts_1.2.1.tar.gz
+Source0  : https://ftp.osuosl.org/pub/cran/src/contrib/systemfonts_1.2.1.tar.gz
 Summary  : System Native Font Finding
 Group    : Development/Tools
 License  : MIT
@@ -72,10 +72,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1737131140
+export SOURCE_DATE_EPOCH=1737473019
 
 %install
-export SOURCE_DATE_EPOCH=1737131140
+export SOURCE_DATE_EPOCH=1737473019
 rm -rf %{buildroot}
 LANG=C.UTF-8
 CFLAGS="$CLEAR_INTERMEDIATE_CFLAGS -O3 -flto -fno-semantic-interposition "
